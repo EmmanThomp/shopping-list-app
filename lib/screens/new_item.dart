@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class NewItemScreen extends StatefulWidget {
+  const NewItemScreen({super.key});
+
+  @override
+  State<NewItemScreen> createState() => _NewItemState();
+}
+
+class _NewItemState extends State<NewItemScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
